@@ -1,9 +1,0 @@
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\bin\Debug\netcoreapp3.1\OnlineTicket.Models.Services.deps.json
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\bin\Debug\netcoreapp3.1\OnlineTicket.Models.Services.dll
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\bin\Debug\netcoreapp3.1\OnlineTicket.Models.Services.pdb
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\obj\Debug\netcoreapp3.1\OnlineTicket.Models.Services.csproj.AssemblyReference.cache
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\obj\Debug\netcoreapp3.1\OnlineTicket.Models.Services.AssemblyInfoInputs.cache
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\obj\Debug\netcoreapp3.1\OnlineTicket.Models.Services.AssemblyInfo.cs
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\obj\Debug\netcoreapp3.1\OnlineTicket.Models.Services.csproj.CoreCompileInputs.cache
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\obj\Debug\netcoreapp3.1\OnlineTicket.Models.Services.dll
-D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Models.Services\obj\Debug\netcoreapp3.1\OnlineTicket.Models.Services.pdb

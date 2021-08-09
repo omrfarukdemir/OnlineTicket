@@ -1,9 +1,0 @@
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\bin\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.deps.json
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\bin\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.dll
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\bin\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.pdb
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\obj\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.csproj.AssemblyReference.cache
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\obj\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.AssemblyInfoInputs.cache
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\obj\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.AssemblyInfo.cs
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\obj\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.csproj.CoreCompileInputs.cache
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\obj\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.dll
-D:\PROJECTS\Github\OnlineTicket\src\Libraries\OnlineTicket.infrastructure\obj\Debug\netcoreapp3.1\OnlineTicket.Infrastructure.pdb
