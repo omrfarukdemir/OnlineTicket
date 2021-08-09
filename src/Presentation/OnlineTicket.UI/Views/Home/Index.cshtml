@@ -1,0 +1,51 @@
+﻿@inject IVisitorService _visitorService
+@{
+    ViewData["Title"] = "En Ucuz Otobüs Bileti Fiyatları";
+    var lastSearch = await _visitorService.GetVisitorLastSearchAsync();
+}
+
+<section class="container">
+ <div class="bg-light shadow-md rounded p-4">
+  <div class="row">
+   <div class="col-lg-5 mb-4 mb-lg-0">
+	<h2 class="text-4 mb-3">Otobüs Bileti Al</h2>
+	<form asp-route="JourneyRoute" method="post">
+	 <div class="form-row">
+	  <div class="col-lg-6 form-group">
+	   <input type="hidden" id="OriginId" name="OriginId" value="@lastSearch.OriginId" />
+	   <input type="text" class="form-control" id="txtOrigin" required="" placeholder="Kalkış Noktası" value="@lastSearch.OriginLocation">
+	   <span class="icon-inside"><i class="fas fa-map-marker-alt"></i></span>
+	  </div>
+	  <div class="col-lg-6 form-group">
+	   <input type="hidden" id="DestinationId" name="DestinationId" value="@lastSearch.DestinationId" />
+	   <input type="text" class="form-control" id="txtDestination" required="" value="@lastSearch.DestinationLocation" placeholder="Varış Noktası">
+	   <span class="icon-inside"><i class="fas fa-map-marker-alt"></i></span>
+	  </div>
+	 </div>
+	 <div class="form-row">
+	  <div class="col form-group">
+	   <input id="txtDepartDate" type="text" name="Date" class="form-control" required="" placeholder="Yolculuk Tarihi" autocomplete="off">
+	   <span class="icon-inside"><i class="far fa-calendar-alt"></i></span>
+	  </div>
+	 </div>
+
+	 <button class="btn btn-primary btn-block" type="submit">Otobüs Bileti Bul</button>
+	</form>
+   </div>
+   <div class="col-lg-7">
+				@await Component.InvokeAsync("Slider")
+   </div>
+  </div>
+ </div>
+</section>
+@section Scripts
+{
+    <script>
+        $(document).ready(function() {
+            setAutoComplete('txtOrigin', "@Url.Action("Pauses","Lookup")", "OriginId");
+            setAutoComplete('txtDestination', "@Url.Action("Pauses","Lookup")", "DestinationId");
+            setDateRangePicker('txtDepartDate', true,moment("@lastSearch.Date.ToString("yyyy-MM-dd")","YYYY-MM-DD").format('YYYY-MM-DD'));
+        });
+        
+    </script>
+}

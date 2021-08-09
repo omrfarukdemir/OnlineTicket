@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>OnlineTicket.Models.Clients.OBilet</AssemblyName>
+    <RootNamespace>OnlineTicket.Models.Clients.OBilet</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="RequestData\" />
+  </ItemGroup>
+
+</Project>

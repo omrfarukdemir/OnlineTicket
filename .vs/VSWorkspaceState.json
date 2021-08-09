@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Clients",
+    "\\src\\Clients\\OnlineTicket.Api.Clients",
+    "\\src\\Clients\\OnlineTicket.Api.Clients\\HttpHandlers",
+    "\\src\\Presentation",
+    "\\src\\Presentation\\OnlineTicket.UI",
+    "\\src\\Presentation\\OnlineTicket.UI\\Views",
+    "\\src\\Presentation\\OnlineTicket.UI\\Views\\Shared",
+    "\\src\\Presentation\\OnlineTicket.UI\\Views\\Shared\\Components",
+    "\\src\\Presentation\\OnlineTicket.UI\\Views\\Shared\\Components\\Slider"
+  ],
+  "SelectedNode": "\\src\\Presentation\\OnlineTicket.UI\\Views\\Shared\\_ScriptPartial.cshtml",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,25 @@
+﻿@model JourneyListItem
+
+<div class="bus-item">
+	<div class="row align-items-sm-center flex-row py-4 px-3">
+		<div class="col col-sm-3">
+			<span class="text-3 text-dark operator-name">@Model.PartnerName</span>
+		</div>
+		<div class="col col-sm-2 text-center time-info">
+			<span class="text-4 text-dark">@Model.Departure.ToString("t")</span>
+			<small class="text-muted d-block">@Model.Origin</small>
+		</div>
+		<div class="col col-sm-2 text-center d-none d-sm-block time-info">
+			<span class="text-3 duration">@Model.Duration</span>
+			<small class="text-muted d-block">@Model.StopsCount Durak</small>
+		</div>
+		<div class="col col-sm-2 text-center time-info">
+			<span class="text-4 text-dark">@Model.Arrival.ToString("t")</span>
+			<small class="text-muted d-block">@Model.Destination</small>
+		</div>
+		<div class="col-12 col-sm-3 align-self-center text-right text-sm-center mt-2 mt-sm-0">
+			<div class="d-inline-block d-sm-block text-dark text-5 price mb-sm-1">@($"{Model.OriginalPrice:##.###} {Model.Currency}")</div>
+			<a href="#" class="btn btn-sm btn-outline-primary shadow-none" data-toggle="modal" data-target="#select-busseats"><i class="fas fa-ellipsis-h d-none d-sm-block d-lg-none" data-toggle="tooltip" title="" data-original-title="Koltuk Şeç"></i> <span class="d-block d-sm-none d-lg-block">Koltuk Şeç</span></a>
+		</div>
+	</div>
+</div>

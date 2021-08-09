@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
+    <PackageReference Include="Wangkanai.Detection" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Clients\OnlineTicket.Api.Clients\OnlineTicket.Clients.OBilet.csproj" />
+    <ProjectReference Include="..\..\Models\OnlineTicket.Client.Models\OnlineTicket.Models.Clients.OBilet.csproj" />
+    <ProjectReference Include="..\..\Models\OnlineTicket.Models.Services\OnlineTicket.Models.Services.csproj" />
+    <ProjectReference Include="..\OnlineTicket.infrastructure\OnlineTicket.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

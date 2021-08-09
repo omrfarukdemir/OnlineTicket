@@ -1,0 +1,50 @@
+﻿<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+
+	<title>@ViewData["Title"] - OnlineTicket</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" type="text/css">
+
+	<partial name="_StylePartial" />
+
+</head>
+<body>
+
+	<div id="preloader" style="display: none;"><div data-loader="dual-ring"></div></div>
+	
+<div id="main-wrapper">
+
+    <partial name="_HeaderPartial"></partial>
+
+    @if (IsSectionDefined("PageHeader"))
+    {
+        @await RenderSectionAsync("PageHeader", required: false)
+    }
+    else
+    {
+        <div class="bg-secondary">
+            <div class="container">
+                <ul class="nav secondary-nav">
+                    <li class="nav-item"> <a class="nav-link" href="#"><span><i class="fas fa-plane"></i></span> Uçak</a> </li>
+                    <li class="nav-item"> <a class="nav-link active" href="#"><span><i class="fas fa-bus"></i></span> Otobüs</a> </li>
+                </ul>
+            </div>
+        </div>
+    }
+
+    <div id="content">
+        @RenderBody()
+    </div>
+
+</div>
+
+ <partial name="_ScriptPartial" />
+
+ @await RenderSectionAsync("Scripts",required:false)
+
+</body>
+</html>

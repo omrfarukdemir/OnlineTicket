@@ -1,0 +1,12 @@
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\bin\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.deps.json
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\bin\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.dll
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\bin\Debug\net5.0\ref\OnlineTicket.Models.Clients.OBilet.dll
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\bin\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.pdb
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\obj\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.csproj.AssemblyReference.cache
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\obj\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\obj\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.AssemblyInfoInputs.cache
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\obj\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.AssemblyInfo.cs
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\obj\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\obj\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.dll
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\obj\Debug\net5.0\ref\OnlineTicket.Models.Clients.OBilet.dll
+D:\PROJECTS\Github\OnlineTicket\src\Models\OnlineTicket.Client.Models\obj\Debug\net5.0\OnlineTicket.Models.Clients.OBilet.pdb
